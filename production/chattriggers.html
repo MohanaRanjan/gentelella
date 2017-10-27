@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>IndiaCarHub.com </title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div id="includedbootstrapContent"></div> 
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>IndiaCarHub.com</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div id="includedmenuprofileContent"></div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="includedsidebarmenuContent"></div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+           <div id="includedfootermenuContent"></div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div id="includedtopnavigationContent"></div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+                <h3>Chat Triggers</h3>
+              </div>
+
+              <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="x_panel">
+                  <div class="x_content">
+                    <div class="row">
+                      <div class="clearfix"></div>
+                        <!-- Smart Wizard -->
+                    <p>Notify the Visitor with chat window based on the behaviour</p>
+                    <div id="wizard" class="form_wizard wizard_horizontal">
+                      <ul class="wizard_steps">
+                        <li>
+                          <a href="#step-1">
+                            <span class="step_no">1</span>
+                            <span class="step_descr">
+                                              Step 1<br />
+                                              <small>Should have all these conditions</small>
+                                          </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-2">
+                            <span class="step_no">2</span>
+                            <span class="step_descr">
+                                              Step 2<br />
+                                              <small>May include any of these Conditions</small>
+                                          </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-3">
+                            <span class="step_no">3</span>
+                            <span class="step_descr">
+                                              Step 3<br />
+                                              <small>Perform the following action</small>
+                                          </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#step-4">
+                            <span class="step_no">4</span>
+                            <span class="step_descr">
+                                              Step 4<br />
+                                              <small>Trigger Summary</small>
+                                          </span>
+                          </a>
+                        </li>
+                      </ul>
+                      <div id="step-1">
+                        <form class="form-horizontal form-label-left" style="height: 200px">
+                          <div class="form-group">
+                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Trigger Name <span class="required">*</span>
+                            </label>
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                              <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+                            </div>
+                          </div>
+                          
+                          <div class="form-group" >
+                            <div class="col-md-4" style="width: 20%"></div>
+                            <div class="col-md-4" style="width: 60%">
+                            
+                            <table id="myTable">
+                              <tr>
+                                <td>
+                                    <select name="page">
+                                      <option value="Visitor">Visitor page Url</option>
+                                      <option value="User">Visitor time spent</option>
+                                    </select>   
+                                </td>
+                                <td>
+                                   <select name="Visitor"><option value="Visitor">is</option>
+                                     </select> 
+                                </td>
+                                <td>
+                                   <input type="text" id="first-name" required="required" >
+                                </td>
+                                <td>
+                                  <a onclick="myFunction()">
+                                  <span class="col-md-3 col-sm-3 col-xs-12"> <i class="fa fa-plus green"></i></span>
+                                </a>
+                                </td>
+                              </tr>
+                            </table>
+                            </div>
+                              <div class="col-md-4" style="width: 20%"></div>
+                          </div>
+                            
+
+                          </form>
+
+                      </div>
+                      <div id="step-2">
+                         <form class="form-horizontal form-label-left" style="height: 200px">
+                          <div class="form-group" >
+                            <div class="col-md-4" style="width: 20%"></div>
+                            <div class="col-md-4" style="width: 60%">
+                            
+                            <table id="myTable2">
+                              <tr>
+                                <td>
+                                    <select name="page">
+                                      <option value="Visitor">Visitor Region</option>
+                                      <option value="User">Visitor City</option>
+                                    </select>   
+                                </td>
+                                <td>
+                                   <select name="Visitor"><option value="Visitor">is</option>
+                                     </select> 
+                                </td>
+                                <td>
+                                   <input type="text" id="first-name" required="required" >
+                                </td>
+                                <td>
+                                  <a onclick="myFunction2()">
+                                  <span class="col-md-3 col-sm-3 col-xs-12"> <i class="fa fa-plus green"></i></span>
+                                </a>
+                                </td>
+                              </tr>
+                            </table>
+                            </div>
+                              <div class="col-md-4" style="width: 20%"></div>
+                          </div>
+                            
+
+                          </form>
+                      </div>
+                      <div id="step-3">
+                        <h4 class="StepTitle">Choose Actions</h4>
+                        
+                        <form class="form-horizontal form-label-left" style="height: 200px">
+                          <div class="form-group" >
+                            <div class="col-md-4" style="width: 20%"></div>
+                            <div class="col-md-4" style="width: 60%">
+                            
+                            <table id="myTable3">
+                              <tr>
+                                <td>
+                                    <select name="page">
+                                      <option value="Visitor">Show Visitor</option>
+                                      <option value="User">Invite Visitor</option>
+                                    </select>   
+                                </td>
+                                <td>
+                                   <select name="Visitor"><option value="Visitor">Featured Cars related to search</option>
+                                    <option value="Visitor">for live help</option>
+                                     </select> 
+                                </td>
+                                <td>
+                                  <a onclick="myFunction3()">
+                                  <span class="col-md-3 col-sm-3 col-xs-12"> <i class="fa fa-plus green"></i></span>
+                                </a>
+                                </td>
+                              </tr>
+                            </table>
+                            </div>
+                              <div class="col-md-4" style="width: 20%"></div>
+                          </div>
+                            
+
+                          </form>
+
+
+                      </div>
+                      <div id="step-4">
+                        <h2 class="StepTitle">Step 4 Trigger Summary</h2>
+                        <h5>The visitor will be notified if they met all of following conditions</h5>
+                        <ul>
+                          <li>Page Url is <strong> www.domain.com/pages/Ford-Icon/?id=2</strong></li>
+                          <li>Page Spent time is <strong> 30   Seconds</strong></li>
+                        </ul>
+
+                        <h5>The visitor will be notified if they met any of the following conditions</h5>
+                        <ul>
+                          <li>Visitor regions is <strong> Chennai</strong></li>
+                         
+                        </ul>
+                      </div>
+
+                    </div>
+                    <!-- End SmartWizard Content -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+       <div id="includedfooterContent"></div>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+
+    <!-- jQuery Smart Wizard -->
+    <script src="../vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+
+     <!-- Include Header -->
+
+   <script src="jquery.js"></script> 
+    <script> 
+    $(function()
+    {
+      $("#includedbootstrapContent").load("include_bootstrap.html");
+      $("#includedtopnavigationContent").load("include_topnavigation.html");  
+      $("#includedmenuprofileContent").load("include_menuprofile.html");  
+      $("#includedsidebarmenuContent").load("include_sidebarmenu.html");
+      $("#includedfootermenuContent").load("include_menufooterbutton.html")
+      $("#includedfooterContent").load("include_footer.html")      
+    });
+    </script> 
+
+    <script>
+    function myFunction() {
+        var table = document.getElementById("myTable");
+        var row = table.insertRow(0);
+        var cell1 = row.insertCell(0);
+        var cell2 = row.insertCell(1);
+        var cell3 = row.insertCell(2);
+        var cell4 = row.insertCell(3);
+        cell1.innerHTML = "<select name=\"cars\"><option value=\"Visitor\">Visitor page Url</option><option value=\"User\">Visitor time spent</option></select>";
+        cell2.innerHTML = "<select name=\"Visitor\"><option value=\"Visitor\">is</option></select> ";
+        cell3.innerHTML = "<input type=\"text\" id=\"first-name\" required=\"required\">";
+        cell4.innerHTML = "<a  onclick=\"myFunction()\"></a><span class=\"col-md-3 col-sm-3 col-xs-12\"> <i class=\"fa fa-minus red\"></i></span></a>&nbsp;&nbsp;&nbsp;AND";
+    }
+
+
+    function myFunction2() {
+        var table = document.getElementById("myTable2");
+        var row = table.insertRow(0);
+        var cell5 = row.insertCell(0);
+        var cell6 = row.insertCell(1);
+        var cell7 = row.insertCell(2);
+        var cell8 = row.insertCell(3);
+        cell5.innerHTML = "<select name=\"cars\"><option value=\"Visitor\">Visitor region</option><option value=\"User\">Visitor country</option></select>";
+        cell6.innerHTML = "<select name=\"Visitor\"><option value=\"Visitor\">is</option></select> ";
+        cell7.innerHTML = "<input type=\"text\" id=\"first-name\" required=\"required\">";
+        cell8.innerHTML = "<a  onclick=\"myFunction2()\"></a><span class=\"col-md-3 col-sm-3 col-xs-12\"> <i class=\"fa fa-minus red\"></i></span></a>&nbsp;&nbsp;&nbsp;OR";
+        }
+
+function myFunction3() {
+        var table = document.getElementById("myTable3");
+        var row = table.insertRow(0);
+        var cell9 = row.insertCell(0);
+        var cell10 = row.insertCell(1);
+        var cell11 = row.insertCell(2);
+        cell9.innerHTML = "<select name=\"cars\"><option value=\"Visitor\">Show Visitor</option><option value=\"User\">Invite Visitor</option></select>";
+        cell10.innerHTML = "<select name=\"Visitor\"><option value=\"Visitor\">Featured Cars related to search</option></select> ";
+         cell11.innerHTML = "<a  onclick=\"myFunction3()\"></a><span class=\"col-md-3 col-sm-3 col-xs-12\"> <i class=\"fa fa-minus red\"></i></span></a>&nbsp;&nbsp;&nbsp;OR";
+        }
+
+      </script>
+    <!-- End Header  -->
+  </body>
+</html>
